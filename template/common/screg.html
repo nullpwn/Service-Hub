@@ -1,0 +1,74 @@
+
+{% extends 'common/commonbase.html' %}
+{% block content %}
+	<section class="contact py-5">
+		<div class="container py-md-4 mt-md-3" style="background-color: aquamarine;">
+			<h2 class="heading-agileinfo">Register Now<span></span></h2><br>
+			<h4 align="center">Service Hub Registeration Form</h4>
+			<span class="w3-line black"></span>
+			<div class="inner-sec-w3layouts-agileinfo mt-md-5 pt-5">
+				
+				
+				<div class="contact_grid_right mt-5">
+                
+					
+					<form action="#" method="post">
+						<div class="contact_left_grid" style="padding-left: 200px;">
+
+							{% csrf_token %} 
+							<input type="text" name="name" placeholder="Name"  required="" title="Please enter your Full Name" required pattern="[A-Z a-z]+">
+							<input type="email" name="email" placeholder="Email" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" required="" title="Please enter your Email Address">
+							<textarea name="address" required="" placeholder="Address"></textarea>
+							<select name="District">
+								<option name="">Select your District</option>
+								
+                                <option name="kasargod">Kasargod</option>
+                                <option name="Kannur">Kannur</option>
+                                <option name="kozhikkode">Kozhikkode</option>
+                                <option name="wayanad">Wayanad</option>
+                                <option name="palakkad">Palakkad</option>
+                                <option name="thrissur">Thrissur</option>
+                                <option name="ernakulam">Ernakulam</option>
+                                <option name="alappuzha">Alappuzha</option>
+                                <option name="kottayam">Kottayam</option>
+                                <option name="idukki">Idukki</option>
+                                <option name="kollam">Kollam</option>
+                                <option name="pathanamthitta">Pathanamthitta</option>
+                                <option name="trivandram">Trivandram</option>
+
+								
+							</select>
+							<input type="text" name="phoneno" placeholder="Phone No" pattern="[7-9]{1}[0-9]{9}" required=""title="Please enter your Phone Number" required pattern="[6-9]{1}[0-9]{9}">
+
+							<select name="Company">
+								<option name="">
+									Select your Company
+
+								</option>
+								{% for i in data %}
+								<option name="{{i.1}}">
+									{{i.1}}
+
+								</option>
+								{% endfor %}
+							</select>
+							
+
+
+
+							<input type="text" name="product" placeholder="Product Type" required=""title="Please enter your Full Name" required pattern="[A-Z a-z]+">
+							<input type="text" name="aid" placeholder="Authorization ID" required=""title="Please enter your Authorization id" required maxlength="5">
+							
+                            <input type="password" name="password" placeholder="Password" required="">
+							<input type="password" name="cpassword" placeholder="Confirm Password" required="">
+							<input type="submit" value="Register Now">
+							
+							<div class="clearfix"> </div>
+						</div>
+					</form>
+				</div>
+			</div>
+					</div>
+	</section>
+	<!--//contact-->
+	{% endblock %}

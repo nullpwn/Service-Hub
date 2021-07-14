@@ -1,0 +1,76 @@
+
+
+{% extends 'user/userbase.html' %}
+
+
+{% block content %}
+
+<section class="gallery py-5">
+    <div class="container py-md-4 mt-md-3" style="background-color: aquamarine;">
+        <h2 class="heading-agileinfo">Choose The Company Of Your Product<span></span></h2>
+        <span class="w3-line black"></span>
+        <div class="row gallery-info mt-md-5 pt-5">
+    
+    
+{% for i in data %}                                                                                                                                                                                                                                                            
+
+            
+            <div class="col-md-3 col-sm-6 gallery-grids">
+                <a href="/problem/?id={{i.1}}">
+                    <img src="../static{{i.2}}" alt="" class="img-fluid zoom-img">
+                   
+                </a>
+                
+            </div>
+            
+
+           {% endfor%}
+
+
+
+
+
+        </div>
+ 
+    </div>
+</section>
+
+
+{% endblock %} 
+
+
+{% if msg %}
+	<script>alert('{{msg}}');</script>
+	{% endif %}
+
+
+
+
+
+
+<div class="modal fade" id="123" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Home Loan</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+           <div class="agileits-w3layouts-info">
+           
+              <p>Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis porttitor quis. </p>
+          </div>
+      </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+

@@ -1,0 +1,36 @@
+
+{% extends 'user/userbase.html' %}
+{% block content %}
+
+	<!--/contact-->
+	<section class="contact py-5">
+		<div class="container py-md-4 mt-md-3" style="background-color: aquamarine;">
+			<h2 class="heading-agileinfo">Book Service<span></span></h2>
+			<span class="w3-line black"></span>
+			<div class="inner-sec-w3layouts-agileinfo mt-md-5 pt-5">
+				
+				
+				<div class="contact_grid_right mt-5">
+                
+					
+					<form action="#" method="post" enctype="multipart/form-data">
+						{% csrf_token %} 
+						<div class="contact_left_grid" style="padding-left: 200px;">
+							
+							<input type="text" name="company" placeholder="{{scid}}" readonly>
+							
+                            <textarea name="problem" required="" placeholder="what's your problem"></textarea>
+							<input type="file" name="image">
+                            
+							<input type="submit" value="Register Now">
+							
+							<div class="clearfix"> </div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--//contact-->
+
+	{% endblock %}

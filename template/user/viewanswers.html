@@ -1,0 +1,36 @@
+
+{% extends 'user/userbase.html' %}
+{% block content %}
+
+<div class="bs-docs-example" style="background-color: aquamarine;">
+    <table class="table">
+        <thead>
+            <tr>
+                
+                <th style=" background-color :rgb(33, 92, 100);color: white;font-size: 20px;"> Question</th>
+                <th style=" background-color :rgb(33, 92, 100);color: white;font-size: 20px;">Answers</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in answers %}
+            <tr>
+               
+                <td style=" color:rgb(179, 7, 7);font-size: 15px;">
+                    {{i.2}}
+                </td>
+                <td style=" color:rgb(179, 7, 7);font-size: 15px;">
+                    {{i.3}}
+                </td>
+                
+            </tr>
+            {% endfor %}
+            <tr><td>If above solutions are not worked please click this...<button><a href="/search/">Go to service Center</a></button></td></tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+{% endblock %}

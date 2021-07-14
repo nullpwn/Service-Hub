@@ -1,0 +1,65 @@
+{% extends 'sc/scbase.html' %}
+{% block content %}
+ 
+<form  method="POST">
+    {% csrf_token %}
+    <div class="card-body  text-center" style="background-color:aquamarine;color: black;">
+        <h5 class="card-title pt-3">Edit Your Profile</h5>
+        <br>
+        <table style="position: relative;left: 36%">
+            <br>
+            {% for d in data %}
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" value="{{d.1}}" name="t1" required></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" value="{{d.2}}" name="t2" required></td>                
+            <tr>
+                <td>Address:</td>
+                <td><input type="text" value="{{d.3}}" name="t3" required></td>
+            </tr>
+            <tr>
+                <td>Phonr:</td>
+                <td><input type="text" value="{{d.4}}" name="t4" required></td>
+            </tr>
+           
+            <tr>
+                <td>Company:</td>
+                <td><input type="text" value="{{d.5}}" name="t5" required></td>
+            </tr>
+            <tr>
+                <td>Product:</td>
+                <td><input type="text" value="{{d.6}}" name="t6" required></td>
+            </tr>
+            <tr>
+                <td>Authorization ID:</td>
+                <td><input type="text" value="{{d.7}}" name="t7" required></td>
+            </tr>
+           
+            
+            <tr>
+                <td>Password:</td>
+                <td><input type="text" value="{{d.8}}" name="t8" required></td>
+            </tr>
+            <tr>
+                <td>District:</td>
+                <td><input type="text" value="{{d.9}}" name="t9" required></td>
+            </tr>
+        </table>
+        {% endfor %}
+        <br><br>
+        <input class="btn" type="submit" value=UPDATE>
+
+    </div>
+</form>
+</div>
+</div>  
+</div>
+{% if msg %}
+<script>
+alert("{{msg}}")
+</script>
+{% endif %}
+{% endblock %}

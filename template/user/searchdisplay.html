@@ -1,0 +1,56 @@
+
+{% extends 'user/userbase.html' %}
+{% block content %}
+
+
+<div class="bs-docs-example" style="background-color: aquamarine;">
+    <table class="table">
+        <thead>
+            <tr>
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 20px;">#</th>
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 20px;"> Name</th>
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 20px;">Email</th>
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 20px;">Address</th>
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 20px;">Phone No</th>
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 20px;">Company</th>
+               
+                <th>Book Now</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in data %}
+            <tr><td>
+                {{forloop.counter}}
+            </td>
+                <td style=" color:rgb(179, 7, 7);font-size: 15px;">
+                    {{i.1}}
+                </td>
+
+
+                <td style=" color:rgb(179, 7, 7);font-size: 15px;">
+                    {{i.2}}
+                </td>
+
+                <td style=" color:rgb(179, 7, 7);font-size: 15px;">
+                    {{i.3}}
+                </td>
+                <td style=" color:rgb(179, 7, 7);font-size: 15px;">
+                    {{i.4}}
+                </td>
+                <td style=" color:rgb(179, 7, 7);font-size: 15px;">
+                    {{i.5}}
+                </td>
+                <td style=" color:rgb(179, 7, 7);font-size: 15px;">
+                   <a href="/booking/?id={{i.0}}">Book Now</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+{% endblock %}

@@ -1,0 +1,47 @@
+
+{% extends 'common/commonbase.html' %}
+{% block content %}
+	<section class="contact py-5" >
+		<div class="container py-md-4 mt-md-3" style="background-color: aquamarine;">
+			<h2 class="heading-agileinfo">Register Now<span></span></h2><br>
+			<h4 align="center">User Registeration Form</h4>
+			<span class="w3-line black"></span>
+			<div class="inner-sec-w3layouts-agileinfo mt-md-5 pt-5">
+				
+				
+				<div class="contact_grid_right mt-5">
+                
+					
+					<form  method="post">
+						{% csrf_token %} 
+						<div class="contact_left_grid" style="padding-left: 180px;">
+							<input type="text" name="name" placeholder="Name" required="">
+							<input type="email" name="email" placeholder="Email" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" required="">
+                            <textarea name="address" required="" placeholder="Address"></textarea>
+							<input type="text" name="phoneno" placeholder="Phone No" pattern="[7-9]{1}[0-9]{9}" required="">
+							<input type="password" name="password" placeholder="Password" required="">
+							<input type="password" name="cpassword" placeholder="Confirm Password" required="">
+							
+							
+                            
+							<input type="submit" value="Register Now">
+							
+							<div class="clearfix"> </div>
+						</div>
+					</form>
+					{% if msg %}
+					<script>
+						alert('{{msg}}');
+					</script>
+					{% endif %}
+
+					{% if word %}
+					<script>
+						alert('{{word}}');
+					</script>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	</section>
+	{% endblock %}

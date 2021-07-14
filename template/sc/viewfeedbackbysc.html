@@ -1,0 +1,49 @@
+
+{% extends 'sc/scbase.html' %}
+{% block content %}
+
+
+<div class="bs-docs-example" style="background-color: aquamarine;">
+    <table class="table">
+        <thead>
+            <tr>
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 20px;">User Name</th>
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 20px;">Email</th>
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 20px;">Address</th>
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 20px;">Phone No</th>
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 20px;">Feed Back</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in data %}
+            <tr>
+                <td style=" color:rgb(179, 7, 7);font-size: 15px;">
+                    {{i.1}}
+                </td>
+                <td style=" color:rgb(179, 7, 7);font-size: 15px;">
+                    {{i.2}}
+                </td>
+                <td style=" color:rgb(179, 7, 7);font-size: 15px;">
+                    {{i.3}}
+                </td>
+                <td style=" color:rgb(179, 7, 7);font-size: 15px;">
+                    {{i.4}}
+                </td>
+                <td style=" color:rgb(179, 7, 7);font-size: 15px;">
+                    {{i.6}}
+                </td>
+
+
+               
+                
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+{% endblock %}

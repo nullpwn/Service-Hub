@@ -1,0 +1,79 @@
+
+{% extends 'sc/scbase.html' %}
+{% block content %}
+<style>
+     th{
+    background-color :rgb(33, 92, 100);color: white;font-size: 9px;
+   
+       
+    }
+    td{
+        color:rgb(179, 7, 7);font-size: 7px;
+    }
+</style>
+
+<div class="bs-docs-example" style="background-color: aquamarine;">
+    <table class="table" border="1">
+        <thead>
+            <tr>
+                
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 10px;">Company</th>
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 10px;">Booking Date</th>
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 10px;">problem</th>
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 10px;">Image</th>
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 10px;">Status Level</th>
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 10px;">Customer name</th>
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 10px;">Customer email</th>
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 10px;">Address</th>
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 10px;">Phone</th>
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 10px;">status</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in data %}
+            <tr>
+                <td style=" color:rgb(179, 7, 7);font-size: 10px;">
+                    {{i.1}}
+                </td>
+
+
+                <td style=" color:rgb(179, 7, 7);font-size: 10px;">
+                    {{i.2}}
+                </td>
+
+                <td style=" color:rgb(179, 7, 7);font-size: 10px;">
+                    {{i.3}}
+                </td>
+                <td style=" color:rgb(179, 7, 7);font-size: 10px;">
+                   <img src="../static{{i.4}}" width="200">
+                </td>
+                <td style=" color:rgb(179, 7, 7);font-size: 10px;">
+                    {{i.5}}
+                </td>
+                <td style=" color:rgb(179, 7, 7);font-size: 10px;">
+                    {{i.10}}
+                </td>
+                <td style=" color:rgb(179, 7, 7);font-size: 10px;">
+                    {{i.11}}
+                </td>
+                <td style=" color:rgb(179, 7, 7);font-size: 10px;">
+                    {{i.12}}
+                </td>
+                <td style=" color:rgb(179, 7, 7);font-size: 10px;">
+                    {{i.13}}
+                </td>
+                
+                <td style=" color:rgb(179, 7, 7);font-size: 10px;">
+                    <a href="/updatebookingstatus/?id={{i.0}}">Update status</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+{% endblock %}

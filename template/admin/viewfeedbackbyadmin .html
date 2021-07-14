@@ -1,0 +1,48 @@
+
+{% extends 'admin/adminbase.html' %}
+{% block content %}
+
+
+<div class="bs-docs-example" style="background-color: aquamarine;color: white;">
+    <table class="table">
+        <thead>
+            <tr>
+                
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 20px;">Name</th>
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 20px;">Email</th>
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 20px;">Address</th>
+                
+                <th style="background-color :rgb(33, 92, 100);color: white;font-size: 20px;">feedback</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in data %}
+            <tr>
+                <td style="color:rgb(179, 7, 7);font-size: 15px;">
+                    {{i.1}}
+                </td>
+
+
+               
+                <td style="color:rgb(179, 7, 7);font-size: 15px;">
+                    {{i.2}}
+                </td>
+                <td style="color:rgb(179, 7, 7);font-size: 15px;">
+                    {{i.3}}
+                </td>
+                
+                <td style="color:rgb(179, 7, 7);font-size: 15px;">
+                    {{i.11}}
+                </td>
+                
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+{% endblock %}
