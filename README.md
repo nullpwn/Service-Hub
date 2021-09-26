@@ -24,7 +24,11 @@ Service Hub brings all your customer service data and channels together in one p
 
 ## Software Specifications
 
-
+* Platform : Windows
+* Front End : Python
+* Scripting Language: JavaScript, HTML
+* Back End : MySQL
+* IDE : Visual Studio Code
 
 
 
