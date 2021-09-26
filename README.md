@@ -52,5 +52,5 @@ Service Hub brings all your customer service data and channels together in one p
 
 ## Service Centre Approval Status
 
-![Service Centre Approval Status](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/scappr.png)
+![Service Centre Approval Status](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/scapprst.png)
 
