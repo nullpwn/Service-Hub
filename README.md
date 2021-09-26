@@ -8,11 +8,11 @@ Service Hub brings all your customer service data and channels together in one p
    
 3. After installing all the dependencies needed for the app, use the command **python [manage.py](https://github.com/nullpwn/Service-Hub/blob/master/manage.py) runserver**
    
-4. Go to http://localhost:8080/ in your browser and see the web app of Service Hub
+4. Go to http://localhost:8080/ in your browser and see the web app of the Service Hub platform
 
 # System Requirements Specification
 
-## Hardware Specification
+## Hardware Specifications
 
 * Microprocessor : Any 64-bit processor
 * Speed : 2.44 GHz
@@ -23,6 +23,8 @@ Service Hub brings all your customer service data and channels together in one p
 * Device : Serial Communication Device
 
 ## Software Specifications
+
+
 
 
 
