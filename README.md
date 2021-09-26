@@ -47,7 +47,7 @@ Service Hub brings all your customer service data and channels together in one p
 
 ## Service Centre Registration
 
-![Service Centre Registration](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/Screg.jpg)
+![Service Centre Registration](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/Servicereg.jpg)
 
 
 ## Service Centre Approval Status
