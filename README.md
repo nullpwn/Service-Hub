@@ -36,4 +36,8 @@ Service Hub brings all your customer service data and channels together in one p
 
 ![Login Page](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/login.png)
 
+## Customer Registration
+
+![Customer Registration](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/userreg.png)
+
 
