@@ -34,25 +34,25 @@ Service Hub brings all your customer service data and channels together in one p
 
 ## Home Page
 
-![Home Page](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/home.png)
+![Home Page](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/Home.jpg)
 
 
 ## Login Page
 
-![Login Page](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/login.png)
+![Login Page](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/Login.jpg)
 
 ## Customer Registration
 
-![Customer Registration](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/userreg.png)
+![Customer Registration](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/Userreg.jpg)
 
 ## Service Centre Registration
 
-![Service Centre Registration](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/screg.png)
+![Service Centre Registration](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/Screg.jpg)
 
 
 ## Service Centre Approval Status
 
-![Service Centre Approval Status](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/scapprst.png)
+![Service Centre Approval Status](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/scapprst.jpg)
 
 ## Booking a Service Center - Customer
 
