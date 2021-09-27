@@ -68,4 +68,8 @@ Service Hub brings all your customer service data and channels together in one p
 
 ![View booking status - Service Centre](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/Viewbooking.jpg)
 
+# Author
+
+**[Alwin Paul](https://www.linkedin.com/in/alwin-paul/)**
+
 
