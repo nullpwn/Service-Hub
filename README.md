@@ -62,8 +62,10 @@ Service Hub brings all your customer service data and channels together in one p
 
 ## Tracking the status of complaint - Customer
 
-![Service Centre Approval Status](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/Track.jpg)
+![Tracking the status of complaint - Customer](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/Track.jpg)
 
-![Service Centre Approval Status](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/scapprst.png)
+## View booking status - Service Centre
+
+![View booking status - Service Centre](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/Viewbooking.jpg)
 
 
