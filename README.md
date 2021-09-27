@@ -60,9 +60,10 @@ Service Hub brings all your customer service data and channels together in one p
 
 ![Booking a Service Center - Customer](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/Booking.jpg)
 
-![Service Centre Approval Status](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/scapprst.png)
+## Tracking the status of Complaint - Customer
+
+![Service Centre Approval Status](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/Track.jpg)
 
 ![Service Centre Approval Status](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/scapprst.png)
 
-![Service Centre Approval Status](https://github.com/nullpwn/Service-Hub/blob/master/Screenshots/scapprst.png)
 
