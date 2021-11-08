@@ -23,9 +23,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '%p=xdg0a)yr^$=*5f-iihdo%+cyd3e3zjk74eh-%&-_jd=dsfo'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
+<<<<<<< HEAD
 ALLOWED_HOSTS = ['127.0.0.1','servicehub1.herokuapp.com']
+=======
+ALLOWED_HOSTS = []
+>>>>>>> parent of 62709f4 (Service Hub)
 
 
 # Application definition
@@ -42,7 +46,6 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
