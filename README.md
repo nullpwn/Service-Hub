@@ -2,16 +2,16 @@
 Service Hub brings all your customer service data and channels together in one place, and helps scale your support through automation and self-service. It is a platform on which service centres of all manufacturers of Information Technology Sector comes under providing service to its customers.
 
 # How to run the app
-1. Either fork the **[repo](https://github.com/nullpwn/Service-Hub.git)** or download the app and open the folder in CLI.
+* Either fork the **[repo](https://github.com/nullpwn/Service-Hub.git)** or download the app and open the folder in CLI.
    
-2. Install all dependencies using the command on terminal
+* Install all dependencies using the command on terminal
              pip install -r requirements.txt 
    
-3. After installing all the dependencies needed for the app, use the command **python [manage.py](https://github.com/nullpwn/Service-Hub/blob/master/manage.py) runserver**
+* After installing all the dependencies needed for the app, use the command **python [manage.py](https://github.com/nullpwn/Service-Hub/blob/master/manage.py) runserver**
    
-4. Go to http://localhost:8080/ in your browser and see the web app of the Service Hub platform
+* Go to http://localhost:8080/ in your browser and see the web app of the Service Hub platform
    
-5. Login into Admin Page of the Service Hub Platform using the credentials username : *admin@gmail.com* and password : *admin*
+* Login into Admin Page of the Service Hub Platform using the credentials username : **admin@gmail.com** and password : **admin**
 
 # System Requirements Specification
 
