@@ -5,7 +5,8 @@ Service Hub brings all your customer service data and channels together in one p
 * Either fork the **[repo](https://github.com/nullpwn/Service-Hub.git)** or download the app and open the folder in CLI.
    
 * Install all dependencies using the command on terminal
-             pip install -r requirements.txt 
+            
+            pip install -r requirements.txt 
    
 * After installing all the dependencies needed for the app, use the command **python [manage.py](https://github.com/nullpwn/Service-Hub/blob/master/manage.py) runserver**
    
