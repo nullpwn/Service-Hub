@@ -10,7 +10,7 @@ Service Hub brings all your customer service data and channels together in one p
    
 * After installing all the dependencies needed for the app, use the command **python [manage.py](https://github.com/nullpwn/Service-Hub/blob/master/manage.py) runserver**
    
-* Go to http://localhost:8080/ in your browser and see the web app of the Service Hub platform
+* Install XAAMP and go to control panel and turn on apache server and sql, go to http://localhost:8080/ in your browser and see the web app of the Service Hub platform
    
 * Login into Admin Page of the Service Hub Platform using the credentials username : **admin@gmail.com** and password : **admin**
 
